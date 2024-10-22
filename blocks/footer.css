@@ -1,7 +1,9 @@
 .footer {
-
+  padding: 92px 0 24px;
+  text-align: center;
 }
 
 .footer__copyright {
-
+  font-size: 14px;
+  line-height: 1.14;
 }

@@ -1,0 +1,31 @@
+.description {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.description__title {
+  font-size: 54px;
+  line-height: 1.07;
+  margin: 0 0 40px;
+}
+
+.description__quote {
+  margin: 0 0 32px;
+}
+
+.description__quote-text {
+  font-size: 24px;
+  line-height: 1.42;
+  margin: 0 0 10px;
+}
+
+.description__quote-author {
+  font-size: 24px;
+  line-height: 1.42;
+  text-align: right;
+}
+
+.description__text {
+  font-size: 16px;
+  line-height: 1.63;
+}
