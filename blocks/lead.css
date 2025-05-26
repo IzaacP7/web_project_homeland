@@ -11,11 +11,12 @@
 .lead__subtitle {
   font-size: 30px;
   line-height: 1.2;
-  margin: 0 0 64px;
+  margin: 0 0 50px;
 }
 
 .lead__image {
   width: 100%;
   max-width: 984px;
   margin-bottom: 92px;
+  box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 1.726);
 }

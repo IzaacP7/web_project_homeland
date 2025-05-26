@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto 92px auto;
+    padding: 0;
+  }
+  
+  .gallery__image {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+    background: #222;
+  }
+  
+  .gallery__image:hover {
+    transform: scale(1.03);
+  }

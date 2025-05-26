@@ -13,6 +13,9 @@
     .intro {
         max-width: 720px;
     }
+    .description {
+        margin-left: 9rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -22,6 +25,18 @@
 
     .intro {
         max-width: 720px;
+    }
+
+    .description {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
@@ -40,5 +55,19 @@
 
     .intro__title {
         font-size: 32px;
+    }
+    .description__title {
+        font-size: 32px;
+    }
+    .description {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 }
